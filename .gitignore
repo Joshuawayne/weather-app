@@ -1,0 +1,53 @@
+# General
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE / Editor Specific
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Environment Files
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Laravel Backend (weather-api)
+weather-api/node_modules/
+weather-api/vendor/
+weather-api/public/build/
+weather-api/public/hot
+weather-api/public/storage
+weather-api/storage/*.key
+weather-api/storage/framework/
+weather-api/storage/logs/*.log
+weather-api/storage/app/public/*
+!weather-api/storage/app/public/.gitignore
+weather-api/.env.backup
+weather-api/.phpunit.result.cache
+weather-api/Homestead.json
+weather-api/Homestead.yaml
+
+# Next.js Frontend (weather-frontend)
+weather-frontend/node_modules/
+weather-frontend/.pnp
+weather-frontend/.pnp.js
+weather-frontend/.next/
+weather-frontend/out/
+weather-frontend/build/
+weather-frontend/coverage/
+weather-frontend/*.tsbuildinfo
+weather-frontend/next-env.d.ts
+weather-frontend/.env*.local
+
+# Notes
+# - weather-api/vendor/ is ignored as per standard practice. Include it only if explicitly required for the assessment.
+# - .env files are ignored to prevent committing sensitive data. Use .env.example for templates.
