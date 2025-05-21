@@ -48,6 +48,3 @@ weather-frontend/*.tsbuildinfo
 weather-frontend/next-env.d.ts
 weather-frontend/.env*.local
 
-# Notes
-# - weather-api/vendor/ is ignored as per standard practice. Include it only if explicitly required for the assessment.
-# - .env files are ignored to prevent committing sensitive data. Use .env.example for templates.
